@@ -2,12 +2,12 @@ NBADrafts
 =========
 ID Attribute Values
 -------------------
-1. Drafts - applied to a DIV tag, includes a list of all of the drafts present in the representation. May contain only one draft. 
+1. drafts - applied to a DIV tag, includes a list of all of the drafts present in the representation. May contain only one draft. 
 2. selections - applied to  a DIV tag, includes a list of all of the draft selections present in the presentation. May contain only one selection. 
 	
 Class Attribute Values 
 ----------------------
-1. all -applied to a UL,OL tag. A list of representations. When this tag is a descendant of a  DIV.id="drafts" it may have  one or more LI.class="year" descendant elements.  When this tag is a descendant of a  DID.id="selections" it MUST have one or more SPAN.class="year" descendant element and it ma have one ormore LI.class="selection" elements.
+1. all - applied to a UL,OL tag. A list of representations. When this tag is a descendant of a  DIV.id="drafts" it may have  one or more LI.class="year" descendant elements.  When this tag is a descendant of a  DID.id="selections" it MUST have one or more SPAN.class="year" descendant element and it ma have one ormore LI.class="selection" elements.
 2. description - applied to a SPAN tag. Contains the description of a selection. 
 3. draft-add - applied to a FORM tag. A template to add the next draft. The element MUST be set to FORM.method="post" and SHOULD contain the following descendant elements: INPUT[text].name="password".
 4. draft-search - applied to a FORM tag. A template to search draft years and selections. The element MUST be set to FORM.method="get" and SHOULD contain the descendant elements: INPUT[text].name="year" & INPUT[text].name="selection".
