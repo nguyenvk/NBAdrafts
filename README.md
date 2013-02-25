@@ -4,6 +4,8 @@ ID Attribute Values
 -------------------
 1. drafts - applied to a DIV tag, includes a list of all of the drafts present in the representation. May contain only one draft. 
 2. selections - applied to  a DIV tag, includes a list of all of the draft selections present in the presentation. May contain only one selection. 
+3. search - applied to a DIV tag, includes a form for query links. May contain only one form.
+4. create - applied to a DIV tag, includes a form for update links. May contain only one form. 
 	
 Class Attribute Values 
 ----------------------
@@ -24,8 +26,9 @@ Name Attibute Values
 1. description - applied to an INPUT[text] element. The team name, player name, and position of a selection. 
 2. password - applied to an INPUT[text] element. The password to allow for creation and removal of selections.
 3. selection - applied to an INPUT[text] element. The selection/position of the draft. The selection value to use when creating a draft position using FORM.class="selection-add". The selection value to use when removing a draft position using FORM.class="selection-remove". The search value to use when searching draft selection using FORM.class="draft-search".
-4. year - applied to an INPUT[text] element. The year of the draft. The search value to use when searching draft values using FORM.class="draft-search".
-	
+4. year_end - applied to an INPUT[text] element. The year of the last desired draft. A search value to use when searching draft values using FORM.class="draft-search".
+5. year_start - applied to an INPUT[text] element. The year of the first desired draft. A search value to use when searching draft values using FORM.class="draft-search".
+
 	
 Rel Attribute Values
 --------------------

@@ -1,0 +1,15 @@
+<html>
+	<div id="search">
+		<span> Search for all drafts between certain years </span>
+		<form method="get" action="/aggregation-years" class="draft-search">
+			<input type="text" name="year_start" value="First Draft Year" required="true" />
+			<input type="text" name="year_end" value="Second Draft Year" required="true" />
+			<input type="submit" value="Search for Drafts" />
+		</form>
+		<span> Search for all selections by selection position </span>
+		<form method="get" action="/aggregation-picks" class="draft-search">
+			<input type="text" name="selection" value="Draft Selection" required="true" />
+			<input type="submit" value="Search for Selection" />
+		</form>
+	</div>
+</html>

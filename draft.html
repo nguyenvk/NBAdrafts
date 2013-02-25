@@ -9,7 +9,7 @@
 							<span> Pick No. 1 </span>
 							<a rel="selection" href="pick.html" title="1 selection"> Selection </a>
 						</li>
-						<!-- ommitted some draft selections for space. picks 2-59 would appear here. -->
+						<!-- ommitted some draft selections. picks 2-59 would appear here. -->
 						<li class="selection">
 							<span> Pick No. 60 </span>
 							<a rel="selection" href="pick.html" title="60 selection"> Selection </a>
@@ -18,5 +18,22 @@
 				</div>
 			</li>
 		</ul>
+	</div>
+	<div id="create">
+	<hr />
+		<span> Add or remove selections </span>
+		<form method="post" action="add_new_selection" class="selection-add">
+			<input type="text" name="selection" value="Selection to add" required="true" />
+			<input type="text" name="description" value="Team, Player Name" required="true" />
+			<span> enter password: </span>
+			<input type="password" name="password" value="" required="true" />
+			<input type="submit" value="add selection" />
+		</form>
+		<form method="post" action="remove_selection" class="selection-remove">
+			<input type="text" name="selection" value="Selection to remove" required="true" />
+			<span> enter password: </span>
+			<input type="password" name="password" value="" required="true" />
+			<input type="submit" value="remove selection" />
+		</form>
 	</div>
 </html>
