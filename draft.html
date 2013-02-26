@@ -8,12 +8,12 @@
 						<li class="selection">
 							<span> Pick No. 1 </span>
 							<a rel="selection" href="pick.html" title="1 selection"> Selection </a>
-						</li>
+							<span class="details"> Team, Player Name </span>
 						<!-- ommitted some draft selections. picks 2-59 would appear here. -->
 						<li class="selection">
 							<span> Pick No. 60 </span>
 							<a rel="selection" href="pick.html" title="60 selection"> Selection </a>
-						</li>
+							<span class="details"> Team, Player Name </span> 
 					</ul>
 				</div>
 			</li>
@@ -24,7 +24,8 @@
 		<span> Add or remove selections </span>
 		<form method="post" action="add_new_selection" class="selection-add">
 			<input type="text" name="selection" value="Selection to add" required="true" />
-			<input type="text" name="description" value="Team, Player Name" required="true" />
+			<input type="text" name="details" value="Team, Player Name " required="true"
+			<input type="text" name="description" value="Player Name, Position, Team, etc" required="true" />
 			<span> enter password: </span>
 			<input type="password" name="password" value="" required="true" />
 			<input type="submit" value="add selection" />
