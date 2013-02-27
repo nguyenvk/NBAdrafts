@@ -1,9 +1,13 @@
 NBADrafts
 =========
+This service provides information on the NBA draft starting from its inception in 1947. NBA drafts occur once every year, and consist of multiple rounds where players are drafted by professional basketball teams. 
+Each draft provides details on the number of selections in that round, and each selection provides details about the player picked. 
+Data is organized by drafts and selections. Users will be able to search through drafts based on years or selections.
+
 ID Attribute Values
 -------------------
 1. drafts - applied to a DIV tag, includes a list of all of the drafts present in the representation. May contain only one draft. 
-2. selections - applied to  a DIV tag, includes a list of all of the draft selections present in the presentation. May contain only one selection. 
+2. selections - applied to a DIV tag, includes a list of all of the draft selections present in the presentation. May contain only one selection. 
 3. search - applied to a DIV tag, includes a form for query links. May contain only one form.
 4. create - applied to a DIV tag, includes a form for update links. May contain only one form. 
 	
