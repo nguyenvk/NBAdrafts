@@ -24,8 +24,8 @@ Class Attribute Values
 9. selection-add - applied to a FORM tag. A template to add a draft selection. The element MUST be set to FORM.method="post" and SHOULD contain the descendant elements: INPUT[text].name="selection" and INPUT[text].name="details" and INPUT[text].name="description" and INPUT[text].name="password".
 10. selection-remove - applied to a FORM tag. A template to remove a draft selection. The element MUST be set to FORM.method="post" and SHOULD contain the descendant elements: INPUT[text].name="selection" and INPUT[text].name="password".
 11. selection-update - applied to a FORM tag. A template to update a draft selection. The element MUST be set to FORM.method="post" and SHOULD contain the descendant elements: INPUT[text].name="selection" and INPUT[text].name="details" and INPUT[text].name="description" and INPUT[text].name="password".
-11. single - applied to a UL tag. A list representation. When this tag is a descendant of DIV.id="drafts" it MUST have one SPAN.class="year" descendant element and may	have one DIV.class="selections" descendant element. When this tag is a decendant of DIV.id="selections" it MUST contain a LI.class="selection" element. 
-12. year - applied to a LI, SPAN tag. Contains the year of a draft. When this element is a descendant of Div.id="drafts" then it MUST contain the descendent element A.rel="draft". 
+12. single - applied to a UL tag. A list representation. When this tag is a descendant of DIV.id="drafts" it MUST have one SPAN.class="year" descendant element and may	have one DIV.class="selections" descendant element. When this tag is a decendant of DIV.id="selections" it MUST contain a LI.class="selection" element. 
+13. year - applied to a LI, SPAN tag. Contains the year of a draft. When this element is a descendant of Div.id="drafts" then it MUST contain the descendent element A.rel="draft". 
 	
 	
 Name Attibute Values
