@@ -29,11 +29,12 @@ Class Attribute Values
 	
 Name Attibute Values
 --------------------
-1. description - applied to an INPUT[text] element. The team name, player name, and position of a selection. 
-2. password - applied to an INPUT[text] element. The password to allow for creation and removal of selections.
-3. selection - applied to an INPUT[text] element. The selection/position of the draft. The selection value to use when creating a draft position using FORM.class="selection-add". The selection value to use when removing a draft position using FORM.class="selection-remove". The search value to use when searching draft selection using FORM.class="draft-search".
-4. year-end - applied to an INPUT[text] element. The year of the last desired draft. A search value to use when searching draft values using FORM.class="draft-search".
-5. year-start - applied to an INPUT[text] element. The year of the first desired draft. A search value to use when searching draft values using FORM.class="draft-search".
+1. description - applied to an INPUT[text] element. The team name, player name, position, etc of a selection. 
+2. details - applied to an INPUT[text] element. The team name and player name of a selection.
+3. password - applied to an INPUT[text] element. The password to allow for creation and removal of selections.
+4. selection - applied to an INPUT[text] element. The selection/position of the draft. The selection value to use when creating a draft position using FORM.class="selection-add". The selection value to use when removing a draft position using FORM.class="selection-remove". The search value to use when searching draft selection using FORM.class="draft-search".
+5. year-end - applied to an INPUT[text] element. The year of the last desired draft. A search value to use when searching draft values using FORM.class="draft-search".
+6. year-start - applied to an INPUT[text] element. The year of the first desired draft. A search value to use when searching draft values using FORM.class="draft-search".
 
 	
 Rel Attribute Values
