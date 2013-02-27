@@ -30,6 +30,14 @@
 			<input type="password" name="password" value="" required="true" />
 			<input type="submit" value="add selection" />
 		</form>
+		<form method="post" action="update_selection" class="selection-update">
+			<input type="text" name="selection" value="Selection to update" required="true" />
+			<input type="text" name="details" value="Team, Player Name " required="true">
+			<input type="text" name="description" value="Player Name, Position, Team, etc" required="true" />
+			<span> enter password: </span>
+			<input type="password" name="password" value="" required="true" />
+			<input type="submit" value="update selection" />
+		</form>
 		<form method="post" action="remove_selection" class="selection-remove">
 			<input type="text" name="selection" value="Selection to remove" required="true" />
 			<span> enter password: </span>
